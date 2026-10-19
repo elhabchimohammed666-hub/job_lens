@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+node_modules_old
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python / Flask backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+*.egg
+
+# Virtual environments
+venv/
+venv_*/
+.venv/
+env/
+ENV/
+
+# Flask
+instance/
+.webassets-cache
+
+# Databases (local dev)
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Uploaded files (resumes, etc.)
+uploads/
+
+# Antigravity artifacts (local AI assistant)
+.gemini/
+# Local caches
+.cache/
+tmp/

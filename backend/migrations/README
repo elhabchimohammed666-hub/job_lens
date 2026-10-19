@@ -1,0 +1,7 @@
+Single-database configuration for Flask.
+
+This folder is managed by Flask-Migrate/Alembic. After installing
+requirements.txt, generate the first migration with:
+
+    flask db migrate -m "initial migration"
+    flask db upgrade
