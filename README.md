@@ -1,3 +1,6 @@
+## License
+   © 2026 Elhabchi Mohammed. All Rights Reserved.
+
 # JobLens
 
 A modern job board platform built with **React + Vite** for the frontend and **Flask** for the backend. Candidates can browse listings, view job details, and **upload their resume** to apply directly from the UI.
